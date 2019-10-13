@@ -1,0 +1,14 @@
+version: '2'
+services:
+
+  client:
+    image: douglascdias/kafka-pyclient
+    links:
+      - kafka-server
+    depends_on:
+      - kafka-server
+
+  kafka-server:
+    image: douglascdias/kafka-server
+    ports:
+      - "9099:9092"
