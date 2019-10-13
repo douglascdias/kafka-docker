@@ -2,7 +2,7 @@
 
 Existem 2 imagens para o docker: kafka-pyclient e kafka-server
  - kafka-server: imagem centos que contém o kafka
- - kafka-pyclient: imagem que contém o programa python executando um webcrawler, que le o https://www.climatempo.com.br/ e grava no kafka-server a cada 10 segundos
+ - kafka-pyclient: imagem que contém o programa python executando um webcrawler, que le o https://www.climatempo.com.br/ e grava no kafka-server (topico test) a cada 10 segundo
 
 --------------------- PASSO A PASSO ---------------------------------------------------------------------------------------
 1) Use o terminal até chegar nos arquivos docker na "pasta docker" (yaml ou yml)
