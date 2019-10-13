@@ -5,7 +5,7 @@ Existem 2 imagens para o docker: kafka-pyclient e kafka-server
  - kafka-pyclient: imagem que contém o programa python executando um webcrawler, que le o https://www.climatempo.com.br/ e grava no kafka-server a cada 10 segundos
 
 --------------------- PASSO A PASSO ---------------------------------------------------------------------------------------
-1) Use o terminal até chegar nos arquivos docker fiap-docker (yaml ou yml)
+1) Use o terminal até chegar nos arquivos docker na "pasta docker" (yaml ou yml)
 
 2) Execute o comenado: "docker-compose up" ou docker "stack deploy -c docker-swarm.yaml douglas-kafka"
    Irá subir um maquina com cliente onde executa o python e outra com kafka-server
